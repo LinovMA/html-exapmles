@@ -1,20 +1,34 @@
-span td:nth-child(1){
-	background-color: rgba(39,47,51, 0.1);
-
+.body{
+	margin:0;
+	padding:0;
+	border: 0;
 }
 
-span td:nth-child(2){
-background-color: rgba(39,47,51, 0.3);
+
+.abc{
+	background-color: rgba(0, 0, 255, 0.1);
 }
 
-span td:nth-child(3){
-	background-color: rgba(39,47,51, 0.5);
+.abc1{
+background-color: rgba(0, 0, 255, 0.3);
 }
 
-span td:nth-child(4){
-	background-color: rgba(39,47,51, 0.7);
+.abc2{
+	background-color: rgba(0, 0, 255, 0.5);
 }
 
-span td:nth-child(5){
-	background-color: rgba(39,47,51);
+.abc3{
+	background-color: rgba(0, 0, 255, 0.7);
+}
+
+.abc4{
+	background-color: rgba(0, 0, 255);
+}
+
+tr:nth-child(2) td:nth-child(2n){
+	blackground-color: rgba(80, 80, 80, 0.3);
+}
+
+tr td:nth-child(2n+1){
+	blackground-color: rgba(80, 80, 80, 0.1);
 }
